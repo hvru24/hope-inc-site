@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "GothamBold";
+    src: url("fonts/gotham_bold.otf") format("otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: "GothamBold", sans-serif;
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero {
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("../img/banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-bottom: 62px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.logo-img {
+    height: 150px;
+}
+
+.telegram-img {
+    padding-top: 50px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    margin-bottom: 50px;
+}
+
+.text {
+    color: white;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.content-img {
+    height: 355px;
+}
+
+.content-text {
+    width: 668px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-text-1 {
+    width: 100%;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.content-text-2 {
+    font-size: 1.2em;
+}
+
+.trailer {
+    height: 787px;
+    margin-bottom: 50px;
+}
+
+.coming-soon {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.coming-soon-img {
+    height: 200px;
+}
+
+.footer {
+    height: 1px;
+}
